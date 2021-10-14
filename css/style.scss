@@ -1,0 +1,430 @@
+@import "nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
+
+.wrapper {
+    background: url('/img/slider/shadow.png') repeat-x, url('/img/slider/bg.jpg') no-repeat;
+    padding: 57px 0 0 0;
+}
+.header {
+
+    display: flex;
+    flex-direction: column;
+
+		&__top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 80px;
+            // padding: 57px 0 0 0;
+		}
+
+        &__menu li{
+            display:inline;
+            a{
+                font-family: 'Poppins', sans-serif;
+                text-transform: uppercase;
+                font-size: 28px;
+                margin: 0 0 0 45px;
+                color: #fff;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+		}
+
+		&__slider-title h1{
+            color:#fff;
+            font-family: 'Archivo', sans-serif;
+            font-size: 87px;
+            font-weight: 700;
+            padding: 89px 0 0 0;
+            line-height: 100px;
+		}
+
+		&__slider-text {
+            width: 573px;
+            color: #fff;
+            font-family: 'Nunito', sans-serif;
+            font-size: 30px;
+            padding: 40px 0 0 0;
+            line-height: 40px;
+		}
+
+		&__link {
+            margin: 58px 0 86px 0;
+		}
+}
+.btn{
+    display:inline-block;
+    padding: 21px 75px;
+    background: #f64b3c;
+    color:#fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 33px;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.container {
+    width: 1250px;
+    margin: 0 auto;
+}
+
+.title-mid{
+    color:#f64b3c;
+    font-family: 'Archivo', sans-serif;
+    h2{
+        font-size: 50px;
+        font-weight: 700;
+        padding: 91px 0 0 0;
+    }
+}
+
+.text-mid{
+    font-family: 'Montserrat', sans-serif;
+    color:#f64b3c;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    width: 755px;
+}
+
+.team {
+    background: url('/img/team/bg.png') 0 150px no-repeat, #f6eedf;
+    text-align: center;
+    padding: 0 0 120px 0;
+
+
+    &__text {
+        margin: 55px auto 90px auto;
+    }
+
+    &__row {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    &__photo img{
+        display: inline-block;
+        border-radius: 50%;
+    }
+
+    &__name {
+        color:#f64b3c;
+        text-transform: uppercase;
+        font-family: 'Archivo', sans-serif;
+        font-size: 30px;
+        padding:20px 0 20px 0;
+        h3{
+            font-weight: 700;
+        }
+    }
+
+    &__position {
+        font-family: 'Nunito', sans-serif;
+        color:#f64b3c;
+        font-size: 25px;
+    }
+}
+
+.circle-photo img{
+    width: 472px;
+    height: 472px;
+    border-radius: 50%;
+}
+
+.best {
+    background: #f64b3c;
+
+    &__row {
+        display: flex;
+        align-items: center;
+    }
+
+    &__photo {
+        margin: 168px 0 168px 0;
+    }
+
+    &__item {
+        margin: 0 0 0 131px;
+    }
+
+    &__title {
+        margin: 0 0 50px 0;
+    }
+
+    &__text {
+        margin: 0 0 50px 0;
+    }
+
+    &__link {
+        background: #fff;
+        color: #f64b3c;
+    }
+}
+.container {
+}
+.title-big {
+    color:#fff;
+    font-family: 'Archivo', sans-serif;
+    h2{
+        font-size: 55px;
+        font-weight: 700;
+    }
+}
+.text-big {
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.big {
+    background: url('/img/team/bg.png') 0 540px, #f6eedf;
+
+		&__row {
+            display: flex;
+            align-items: center;
+		}
+
+        &__photo{
+            margin: 168px 0 168px 50px;
+        }
+
+		&__tltle {
+            color:#f64b3c;
+		}
+
+		&__text {
+            color:#f64b3c;
+            margin: 50px 0;
+		}
+}
+
+.statistics {
+    background: #f64b3c;
+
+    &__title {
+        color:#fff;
+        margin: 0px 0 30px 0;
+        text-align: center;
+    }
+
+    &__text {
+        color:#fff;
+        margin: 0 auto;
+        text-align: center; 
+    }
+
+    &__name{
+        color:#fff;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0 0 0;
+        padding: 0 0 150px 0;
+    }
+
+    &__item {
+        width: 306px;
+        height: 306px;
+        border-radius:50%;
+        border:6px solid #fff;
+        text-align: center;
+        padding: 70px 0 0 0;
+    }
+
+    &__num {
+        font-family: 'Archivo', sans-serif;
+        color: #fff;
+        font-size: 90px;
+        font-weight: 700;
+        margin: 0 0 20px 0;
+    }
+}
+
+
+.popular {
+    background: url('/img/team/bg.png') no-repeat, #f6eedf;
+
+    &__header {
+        color:#f64b3c;
+        text-align: center;
+        padding: 90px 0;
+    }
+
+    &__row {
+        display:flex;
+        justify-content: space-around;
+        padding: 0 0 50px 0;
+    }
+
+    &__item {
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15px;
+        max-width: 335px;
+        padding: 0 30px;
+    }
+
+    &__subtitle {
+        font-family: 'Archivo', sans-serif;
+        text-transform: uppercase;
+        color:#f64b3c;
+        font-size: 30px;
+        font-weight: 700;
+        margin: 30px 0;
+
+    }
+
+    &__img {
+    }
+
+    &__price {
+        font-family: 'Archivo', sans-serif;
+        text-transform: uppercase;
+        color:#f64b3c;
+        margin: 20px 0;
+        font-size: 40px;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+
+    &__text {
+        font-family: 'Archivo', sans-serif;
+        color:#f64b3c;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    &__link {
+        display:inline-block;
+        padding: 21px 75px;
+        background: #f64b3c;
+        color:#fff;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 33px;
+        margin: 20px 0;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+.quoute {
+
+    background: url('/img/bg.jpg') no-repeat;
+    &__row {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        height: 794px;
+    }
+
+    &__text {
+        color:#fff;
+        font-family: 'Archivo', sans-serif;
+        font-size: 27px;
+        text-align: center;
+        margin:0 276px ;
+        line-height: 39px;
+        text-shadow: 1px 1px 8px rgb(85, 85, 85);
+    }
+
+    &__author {
+        color: #fff;
+        font-family: 'Calistoga', cursive;
+        font-size: 40px;
+        margin: 50px 0 0 0;
+        text-shadow: 1px 1px 8px rgb(85, 85, 85);
+    }
+}
+
+.form {
+    background: url('/img/team/bg.png') 10px 40px no-repeat, #f6eedf;
+    height: 794px;
+
+    &__row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__title {
+        color: #f64b3c;
+        margin: 200px 0 100px 0;
+    }
+
+    &__text {
+        color: #f64b3c;
+        width: 550px;
+        text-align: center;
+    }
+
+    &__block {
+
+    }
+
+    &__input {
+        margin: 50px 0 0 0;
+        font-size: 30px;
+        padding: 15px 15px 15px 30px;
+        width: 500px;
+        height: 70px;
+        border-radius: 40px 0 0 40px;
+        position: absolute;
+        left:-400px;
+        font-family: 'Nunito';
+        &::placeholder { 
+            color: rgb(0, 0, 0);
+            opacity: 0.1; 
+          }
+
+    }
+
+    &__cont{
+        border: 1px solid red;
+        position: relative;
+    }
+
+    &__btn {
+        display: inline-block;
+        color: #fff;
+        background: #f64b3c;
+        height: 70px;
+        width: 250px;
+        position: absolute;
+        left:100px;
+        top:50px;
+        border-radius: 0 40px 40px 0;
+        font-size: 23px;
+        text-transform: uppercase;
+        font-family: 'Nunito';
+        &:hover{
+            background: #e03a2b;
+        }
+    }
+}
