@@ -184,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .team {
-  background: url("img/team/bg.png") 0 150px no-repeat, #f6eedf;
+  background: url("../img/team/bg.png") 0 150px no-repeat, #f6eedf;
   text-align: center;
   padding: 0 0 120px 0;
 }
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .big {
-  background: url("img/team/bg.png") 0 540px, #f6eedf;
+  background: url("../img/team/bg.png") 0 540px, #f6eedf;
 }
 
 .big__row {
@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .popular {
-  background: url("img/team/bg.png") no-repeat, #f6eedf;
+  background: url("../img/team/bg.png") no-repeat, #f6eedf;
 }
 
 .popular__header {
@@ -440,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .quoute {
-  background: url("img/bg.jpg") no-repeat;
+  background: url("../img/bg.jpg") no-repeat;
 }
 
 .quoute__row {
@@ -480,7 +480,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form {
-  background: url("img/team/bg.png") 10px 40px no-repeat, #f6eedf;
+  background: url("../img/team/bg.png") 10px 40px no-repeat, #f6eedf;
   height: 794px;
 }
 
