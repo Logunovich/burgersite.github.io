@@ -566,4 +566,80 @@ h1, h2, h3, h4, h5, h6 {
 .form__btn:hover {
   background: #e03a2b;
 }
+
+.footer {
+  background: #222222;
+  color: #fff;
+  font-family: 'Archivo', sans-serif;
+  padding: 50px 0 50px 0;
+}
+
+.footer a {
+  color: #fff;
+  font-family: 'Archivo', sans-serif;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__left {
+  width: 50%;
+}
+
+.footer__title {
+  font-size: 25px;
+  margin: 30px 0;
+}
+
+.footer__text {
+  font-size: 18px;
+  padding: 0 40px 20px 0;
+  line-height: 30px;
+}
+
+.footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer__s-item {
+  margin: 0 5px;
+}
+
+.footer__right {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__label {
+  font-size: 25px;
+  margin: 0 0 20px 0;
+}
+
+.footer__label h2 {
+  font-weight: 700;
+}
+
+.footer__list {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.footer__list li {
+  font-weight: 300;
+}
 /*# sourceMappingURL=style.css.map */
