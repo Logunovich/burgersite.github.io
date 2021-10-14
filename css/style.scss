@@ -6,7 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Calistoga&display=swap');
 
 .wrapper {
-    background: url('/img/slider/shadow.png') repeat-x, url('/img/slider/bg.jpg') no-repeat;
+    background: url('img/slider/shadow.png') repeat-x, url('img/slider/bg.jpg') no-repeat;
     padding: 57px 0 0 0;
 }
 .header {
@@ -97,7 +97,7 @@
 }
 
 .team {
-    background: url('/img/team/bg.png') 0 150px no-repeat, #f6eedf;
+    background: url('img/team/bg.png') 0 150px no-repeat, #f6eedf;
     text-align: center;
     padding: 0 0 120px 0;
 
@@ -188,7 +188,7 @@
 }
 
 .big {
-    background: url('/img/team/bg.png') 0 540px, #f6eedf;
+    background: url('img/team/bg.png') 0 540px, #f6eedf;
 
 		&__row {
             display: flex;
@@ -259,7 +259,7 @@
 
 
 .popular {
-    background: url('/img/team/bg.png') no-repeat, #f6eedf;
+    background: url('img/team/bg.png') no-repeat, #f6eedf;
 
     &__header {
         color:#f64b3c;
@@ -333,7 +333,7 @@
 
 .quoute {
 
-    background: url('/img/bg.jpg') no-repeat;
+    background: url('img/bg.jpg') no-repeat;
     &__row {
         display:flex;
         flex-direction: column;
@@ -363,7 +363,7 @@
 }
 
 .form {
-    background: url('/img/team/bg.png') 10px 40px no-repeat, #f6eedf;
+    background: url('img/team/bg.png') 10px 40px no-repeat, #f6eedf;
     height: 794px;
 
     &__row {
